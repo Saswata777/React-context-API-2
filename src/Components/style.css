@@ -1,0 +1,48 @@
+.headingBar{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+
+.heading{
+    width: 100vw;
+    display: flex;
+    background-color: rgb(80, 142, 241);
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+
+.link{
+    display: flex;
+    justify-content:space-around;
+    /* margin-right: 50px; */
+    background-color: rgb(12, 63, 144);
+    
+}
+
+.link a{
+    padding-right: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.productPage{
+    padding-top: 100px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+
+
+.grow:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+	
